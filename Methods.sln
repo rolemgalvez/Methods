@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometown", "Hometown\Hometo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportPick", "SportPick\SportPick.csproj", "{1587BD55-2737-4577-8842-8374BB920B8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add", "Add\Add.csproj", "{1AFCB951-DE37-4B7D-8171-328F0D70F6C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtract", "Subtract\Subtract.csproj", "{DCC7B263-5FC5-48CA-974E-11123A22994B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{1587BD55-2737-4577-8842-8374BB920B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1587BD55-2737-4577-8842-8374BB920B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1587BD55-2737-4577-8842-8374BB920B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFCB951-DE37-4B7D-8171-328F0D70F6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFCB951-DE37-4B7D-8171-328F0D70F6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFCB951-DE37-4B7D-8171-328F0D70F6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFCB951-DE37-4B7D-8171-328F0D70F6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC7B263-5FC5-48CA-974E-11123A22994B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC7B263-5FC5-48CA-974E-11123A22994B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC7B263-5FC5-48CA-974E-11123A22994B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC7B263-5FC5-48CA-974E-11123A22994B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

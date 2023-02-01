@@ -1,8 +1,8 @@
-﻿using Multiply;
+﻿using Remainder;
 
 Process.Welcome();
 
-double[] numbers = Process.GetNumbers();
+double[] numbers = Process.GetInput();
 
 double result = Process.Compute(numbers);
 

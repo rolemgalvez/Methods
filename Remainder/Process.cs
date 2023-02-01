@@ -1,15 +1,15 @@
-﻿namespace Multiply
+﻿namespace Remainder
 {
     public class Process
     {
         public static void Welcome()
         {
-            Console.WriteLine("Multiply");
-            Console.WriteLine("--------");
+            Console.WriteLine("Remainder");
+            Console.WriteLine("---------");
             Console.WriteLine();
         }
 
-        public static double[] GetNumbers()
+        public static double[] GetInput()
         {
             Console.Write("Enter 1st number: ");
             double.TryParse(Console.ReadLine(), out double n1);
@@ -24,12 +24,12 @@
 
         public static double Compute(double[] numbers)
         {
-            return numbers[0] * numbers[1];
+            return numbers[0] % numbers[1];
         }
 
         public static void Response(double[] numbers, double result)
         {
-            Console.WriteLine($"{numbers[0]} x {numbers[1]} = {result}");
+            Console.WriteLine($"{numbers[0]} % {numbers[1]} = {result}");
         }
 
         public static void End()

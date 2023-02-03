@@ -8,4 +8,4 @@ string? name = Process.GetName();
 
 Process.Response(name, payDate, salary);
 
-//End
+Process.End();

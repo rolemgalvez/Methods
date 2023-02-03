@@ -37,5 +37,12 @@
             Console.WriteLine($"Date   : {date}");
             Console.WriteLine($"Salary : {salary.ToString("N")}");
         }
+
+        public static void End()
+        {
+            Console.WriteLine();
+            Console.WriteLine("End of program.");
+            Console.ReadLine();
+        }
     }
 }

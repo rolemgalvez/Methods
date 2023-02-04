@@ -4,6 +4,6 @@ Welcome.Header();
 
 (string name, _) = Welcome.GetName();
 
-//Response
+Welcome.Response(name);
 
-//End
+Welcome.End();

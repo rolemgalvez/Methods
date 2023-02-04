@@ -23,5 +23,18 @@
 
             return output;
         }
+
+        public static void Response(string name)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Hello {name}!");
+        }
+
+        public static void End()
+        {
+            Console.WriteLine();
+            Console.WriteLine("End of program.");
+            Console.ReadLine();
+        }
     }
 }
